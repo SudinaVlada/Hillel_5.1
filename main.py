@@ -17,9 +17,10 @@ for i in list1:
         if i in text:
             print(False)
             break
-if text.count("_") > 1:
+for i in text:
+    if text.count("_") > 1:
         print(False)
-        exit()
+        break
 if text in keyword.kwlist:
         print(False)
         exit()
