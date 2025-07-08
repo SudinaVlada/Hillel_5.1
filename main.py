@@ -17,7 +17,7 @@ for i in list1:
         if i in text:
             print(False)
             break
-for i in text:
+while True:
     if text.count("_") > 1:
         print(False)
         break
